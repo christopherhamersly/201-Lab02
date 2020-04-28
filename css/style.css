@@ -1,45 +1,63 @@
 header {
   color: rgb(196, 164, 164);
-  font-size: 8em;
+  font-size: 7.65em;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(105, 106, 179);
+  padding-top: .3em;
+  padding-bottom: .3em;
+  padding-left: 2.8em;
+  padding-right: 1.93em;
+  writing-mode: vertical-lr;
+  opacity: 75%;
 }
 
 #p1 {
  color:rgb(168, 216, 168);
- background-color: rgb(139, 0, 0);
+ background-color: rgb(163, 163, 163);
  font-size: 14pt;
- text-align: left;
- padding-left: 70pt;
+ text-align: center;
  font-family: sans-serif;
  padding-top: 32pt;
  padding-bottom: 40pt;
+ opacity: 85%;
 }
 #p2 {
-  color: rgb(82, 80, 80);
+  color: rgb(227, 230, 81);
   background-color: rgb(1, 114, 114);
-  padding-top: 15pt;
-  padding-bottom: 2.2em;
+  padding-top: 24pt;
+  padding-bottom: 2.3em;
   text-align: center;
+  opacity: 45%;
+  font-size: 14pt;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #p3 {
   color:grey;
-  background-color: rgb(46, 45, 45) ;
-  text-align: left;
-  padding: 1em;
+  background-color: rgb(170, 185, 133) ;
+  text-align: center;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+  font-size: 14pt;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 45%;
+  
+ 
 }
 
 footer {
   background-color: hotpink;
   color: aqua;
   text-align: center;
-  padding: .6em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  opacity: 35%
 }
 
-img {
-  opacity: 50%;
-  padding: -50px;
-  size: 1em;
+
+#mt-rainier {
+  height: auto;
+  width: 700px;
+
 }
