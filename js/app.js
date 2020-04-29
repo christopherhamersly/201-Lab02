@@ -1,6 +1,9 @@
 'use strict';
 
 var userName = prompt ("What is your name?")
+console.log(userName);
+
+alert('Welcome' + username);
 
 var mountainsOrBeach = prompt(userName + ', ' + 'do you like the mountains?');
 
@@ -9,8 +12,9 @@ if(mountainsOrBeach.toLowerCase() === 'yes'){
 } else if (mountainsOrBeach.toLowerCase() === 'no') {
   prompt( 'Or' + userName + ' ' + 'Do you prefer the beach?');
 } else {
-    prompt(userName + ', ' + 'please answer either yes or no' )
+    prompt(userName + ', ' + 'please answer either yes or no')
 }
+console.log(mountainsOrBeach);
 
 var cascades = prompt ('Do you like hiking in the Cascades?');
 
@@ -19,26 +23,20 @@ if(cascades.toLowerCase() === 'yes'){
 } else if (cascades.toLowerCase() === 'no'){
   prompt ('Do you prefer the Olympics?')
 } else {
-    prompt(userName + ', ' + 'please answer either yes or no' )
+    prompt(userName + ', ' + 'please answer either yes or no')
 }
+console.log(cascades);
 
-var hiking = prompt('When you hike, do you hike than four miles?');
+var camping = prompt('When you hike, do you hike than four miles?');
 
   if(camping.toLowerCase() === 'yes'){
   prompt(userName + ' ' + 'have you ever thought about hiking across Washington?');
 } else if (camping.toLowerCase() === 'no'){
-  prompt(userName + ' ' + 'I don\'t blame you, I worry aout getting lost');
+  prompt(userName + ' ' + 'I don\'t blame you, I worry about getting lost');
 } else {
-    prompt (userName + ', ' + 'Please answer either yes or no' )
+    prompt (userName + ', ' + 'Please answer either yes or no' );
 }
+console.log(camping);
 
-var campFires = prompt(userName + ', ' + 'do you like the smell of campfires?')
-
-  if(campFires.toLowerCase() === 'yes'){
-prompt('Hey,' + userName + ' ' + 'I do too.');
-} else if (campFires.toLowerCase() === 'no'){
-  prompt (userName + ', ' + 'thats ok, I can see how someone wouldn\'t like them.');
-} else {
-  prompt (userName + ', ' + 'Please answer either yes or no' )
-}
+alert = ('Thank you for your time' + username + ', ' + 'welcome to the site.');
 
