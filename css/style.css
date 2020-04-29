@@ -12,7 +12,10 @@ header {
   writing-mode: vertical-lr;
   opacity: 75%;
 }
+p {
+  width:37.6em;
 
+}
 #p1 {
  color:rgb(168, 216, 168);
  background-color: rgb(163, 163, 163);
@@ -57,10 +60,14 @@ footer {
 }
 
 
-#mainbody {
-  margin: 10em;
-}
 
+@media only screen and (max-width: 767px){
 #mt-rainier {
   width: 100rem;
+  opacity: 90%;
+  background-color: aquamarine;
+  background-size: cover;}
+}
+footer {
+  writing-mode: sideways-lr;
 }
