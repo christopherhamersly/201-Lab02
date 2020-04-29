@@ -3,7 +3,7 @@
 var userName = prompt ("What is your name?")
 console.log(userName);
 
-alert('Welcome' + username);
+alert('Hello,' + ' ' + userName )
 
 var mountainsOrBeach = prompt(userName + ', ' + 'do you like the mountains?');
 
@@ -14,7 +14,9 @@ if(mountainsOrBeach.toLowerCase() === 'yes'){
 } else {
     prompt(userName + ', ' + 'please answer either yes or no')
 }
-console.log(mountainsOrBeach);
+// console.log(mountainsOrBeach);
+
+alert('Thank You')
 
 var cascades = prompt ('Do you like hiking in the Cascades?');
 
@@ -25,7 +27,9 @@ if(cascades.toLowerCase() === 'yes'){
 } else {
     prompt(userName + ', ' + 'please answer either yes or no')
 }
-console.log(cascades);
+// console.log(cascades);
+
+alert ('Thank You')
 
 var camping = prompt('When you hike, do you hike than four miles?');
 
@@ -36,7 +40,9 @@ var camping = prompt('When you hike, do you hike than four miles?');
 } else {
     prompt (userName + ', ' + 'Please answer either yes or no' );
 }
-console.log(camping);
+// console.log(camping);
 
-alert = ('Thank you for your time' + username + ', ' + 'welcome to the site.');
+alert ('Thank You')
+
+alert('Thank you for your time' + ' ' + userName )
 
