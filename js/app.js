@@ -1,48 +1,72 @@
 'use strict';
 
-var userName = prompt ("What is your name?")
-console.log(userName);
+alert('Im alive')
+
+var userName = prompt ("What is your name?");
+console.log( userName );
 
 alert('Hello,' + ' ' + userName )
 
+// First Question
 var mountainsOrBeach = prompt(userName + ', ' + 'do you like the mountains?');
 
 if(mountainsOrBeach.toLowerCase() === 'yes'){
-  prompt( userName + ' ' + 'is Mt. Rainier your favorite Mountain?');
+  alert( userName + ' ' + 'moutains are the best');
 } else if (mountainsOrBeach.toLowerCase() === 'no') {
-  prompt( 'Or' + userName + ' ' + 'Do you prefer the beach?');
+  alert( 'Or' + userName + ' ' + 'beaches are the best');
 } else {
     prompt(userName + ', ' + 'please answer either yes or no')
 }
-// console.log(mountainsOrBeach);
+//  console.log(mountainsOrBeach);
 
-alert('Thank You')
-
+// Second Question
 var cascades = prompt ('Do you like hiking in the Cascades?');
 
 if(cascades.toLowerCase() === 'yes'){
-  prompt('Do you like staying overnight?');
+  alert('Wow,the cascades are really pretty.');
 } else if (cascades.toLowerCase() === 'no'){
-  prompt ('Do you prefer the Olympics?')
+  alert ('You must like the Olympics')
 } else {
     prompt(userName + ', ' + 'please answer either yes or no')
 }
 // console.log(cascades);
 
-alert ('Thank You')
-
+// Third Question
 var camping = prompt('When you hike, do you hike than four miles?');
 
   if(camping.toLowerCase() === 'yes'){
-  prompt(userName + ' ' + 'have you ever thought about hiking across Washington?');
+  alert(userName + ' ' + 'you may be able to hike across Washington');
 } else if (camping.toLowerCase() === 'no'){
-  prompt(userName + ' ' + 'I don\'t blame you, I worry about getting lost');
+  alert(userName + ' ' + 'I don\'t blame you, I worry about getting lost');
 } else {
     prompt (userName + ', ' + 'Please answer either yes or no' );
 }
 // console.log(camping);
 
-alert ('Thank You')
+// Fourth Question
+var campFires = prompt('When you hike, do you hike than four miles?');
 
+  if(campFires.toLowerCase() === 'yes'){
+  alert(userName + ' ' + 'Nice, smores are great.');
+} else if (campFires.toLowerCase() === 'no'){
+  alert(userName + ' ' + 'I don\'t blame you, the smoke can get into your eyes');
+} else {
+    prompt (userName + ', ' + 'Please answer either yes or no' );
+}
+// console.log(campFires);
+
+// Fifth Question
+var hammcokCamp = prompt('Do you like sleeping in a hammck?');
+
+  if(hammockCamp.toLowerCase() === 'yes'){
+  alert(userName + ' ' + 'you may be able to hike across Washington');
+} else if (hammockCamp.toLowerCase() === 'no'){
+  alert(userName + ' ' + 'it\'s ok, they can be a little tough to get into');
+} else {
+    prompt (userName + ', ' + 'Please answer either yes or no' );
+}
+// console.log(camping);
+
+// Thank you
 alert('Thank you for your time' + ' ' + userName )
 
