@@ -57,7 +57,10 @@ footer {
 }
 
 
+#mainbody {
+  margin: 10em;
+}
+
 #mt-rainier {
-  height: auto;
-  width: 700px;
+  width: 100rem;
 }
