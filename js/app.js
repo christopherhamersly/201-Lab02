@@ -9,7 +9,7 @@ alert('Hello,' + ' ' + userName )
 
 // First Question
 var mountainsOrBeach = prompt(userName + ', ' + 'do you like the mountains?');
-
+//  console.log(mountainsOrBeach);
 if(mountainsOrBeach.toLowerCase() === 'yes'){
   alert( userName + ' ' + 'moutains are the best');
 } else if (mountainsOrBeach.toLowerCase() === 'no') {
@@ -17,11 +17,11 @@ if(mountainsOrBeach.toLowerCase() === 'yes'){
 } else {
     prompt(userName + ', ' + 'please answer either yes or no')
 }
-//  console.log(mountainsOrBeach);
+
 
 // Second Question
 var cascades = prompt ('Do you like hiking in the Cascades?');
-
+// console.log(cascades);
 if(cascades.toLowerCase() === 'yes'){
   alert('Wow,the cascades are really pretty.');
 } else if (cascades.toLowerCase() === 'no'){
@@ -29,11 +29,11 @@ if(cascades.toLowerCase() === 'yes'){
 } else {
     prompt(userName + ', ' + 'please answer either yes or no')
 }
-// console.log(cascades);
+
 
 // Third Question
 var camping = prompt('When you hike, do you hike than four miles?');
-
+// console.log(camping);
   if(camping.toLowerCase() === 'yes'){
   alert(userName + ' ' + 'you may be able to hike across Washington');
 } else if (camping.toLowerCase() === 'no'){
@@ -41,11 +41,11 @@ var camping = prompt('When you hike, do you hike than four miles?');
 } else {
     prompt (userName + ', ' + 'Please answer either yes or no' );
 }
-// console.log(camping);
+
 
 // Fourth Question
-var campFires = prompt('When you hike, do you hike than four miles?');
-
+var campFires = prompt('Do you like campfires?');
+// console.log(campFires);
   if(campFires.toLowerCase() === 'yes'){
   alert(userName + ' ' + 'Nice, smores are great.');
 } else if (campFires.toLowerCase() === 'no'){
@@ -53,11 +53,11 @@ var campFires = prompt('When you hike, do you hike than four miles?');
 } else {
     prompt (userName + ', ' + 'Please answer either yes or no' );
 }
-// console.log(campFires);
+
 
 // Fifth Question
-var hammcokCamp = prompt('Do you like sleeping in a hammck?');
-
+var hammcokCamp = prompt('Do you like sleeping in a hammock?');
+// console.log(hammockCamp);
   if(hammockCamp.toLowerCase() === 'yes'){
   alert(userName + ' ' + 'you may be able to hike across Washington');
 } else if (hammockCamp.toLowerCase() === 'no'){
@@ -65,7 +65,7 @@ var hammcokCamp = prompt('Do you like sleeping in a hammck?');
 } else {
     prompt (userName + ', ' + 'Please answer either yes or no' );
 }
-// console.log(camping);
+
 
 // Thank you
 alert('Thank you for your time' + ' ' + userName )
