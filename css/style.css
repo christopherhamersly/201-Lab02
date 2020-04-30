@@ -1,73 +1,128 @@
 
 header {
+  background-color: rgb(105, 106, 179);
   color: rgb(218, 164, 164);
   font-size: 7.65em;
-  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(105, 106, 179);
   padding-top: .3em;
   padding-bottom: .3em;
   padding-left: 2.8em;
   padding-right: 1.93em;
-  writing-mode: vertical-lr;
+  text-align: center;
   opacity: 75%;
+  writing-mode: vertical-lr;
 }
 p {
   width:37.6em;
 
 }
+
+#education {
+  background-color: rgb(104, 101, 101);
+  color: rgb(217, 223, 217);
+  font-size: 14pt;
+  font-family: sans-serif;
+  margin-left: 15.5em;
+  opacity: 85%;
+  padding-top: 32pt;
+  padding-bottom: 40pt;
+  padding-right: 10em;
+  text-align: right;
+  width: 40em;
+
+}
 #p1 {
- color:rgb(168, 216, 168);
- background-color: rgb(163, 163, 163);
+  background-color: rgb(163, 163, 163);
+ color:rgb(227, 231, 227);
  font-size: 14pt;
- text-align: center;
  font-family: sans-serif;
+ opacity: 85%;
  padding-top: 32pt;
  padding-bottom: 40pt;
- opacity: 85%;
+ text-align: center;
+}
+
+#work-history {
+  background-color: rgb(129, 207, 207);
+  color: rgb(134, 43, 209);
+  font-size: 14pt;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 15.5em;
+  opacity: 45%;
+  padding-top: 24pt;
+  padding-right: 10em;
+  padding-bottom: 2.3em;
+  text-align: right;
+  width: 40em;
 }
 #p2 {
-  color: rgb(227, 230, 81);
   background-color: rgb(1, 114, 114);
+  color: rgb(227, 230, 81);
+  font-size: 14pt;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 45%;
   padding-top: 24pt;
   padding-bottom: 2.3em;
   text-align: center;
-  opacity: 45%;
-  font-size: 14pt;
+}
+#goals {
+  background-color: rgb(41, 222, 228) ;
+  color:rgb(190, 94, 94);
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  margin-left: 15.5em;
+  opacity: 45%;
+  padding-bottom: 2em;
+  padding-top: 2.5em;
+  padding-right: 10em;
+  text-align: center;
+  text-align: right;
+  width: 40em;
+
 }
 
 #p3 {
-  color:grey;
-  background-color: rgb(170, 185, 133) ;
-  text-align: center;
-  padding-top: 2.5em;
-  padding-bottom: 2em;
+  background-color: rgb(233, 120, 45) ;
+  color:rgb(228, 224, 224);
   font-size: 14pt;
   font-family: Arial, Helvetica, sans-serif;
   opacity: 45%;
+  padding-top: 2.5em;
+  padding-bottom: 2em;
+  text-align: center;
   
  
 }
-
-footer {
-  background-color: hotpink;
-  color: aqua;
-  text-align: center;
-  padding-top: 3em;
-  padding-bottom: 3em;
-  opacity: 35%
+ol {
+  background-color: rgb(104, 101, 101);
+  color: rgb(217, 223, 217);
+  font-size: 14pt;
+  font-family: sans-serif;
+  margin-left: 15.5em;
+  opacity: 85%;
+  padding-top: 32pt;
+  padding-bottom: 40pt;
+  padding-right: 10em;
+  text-align: right;
+  width: 40em;
 }
-
-
-
-@media only screen and (max-width: 767px){
+/* @media only screen and (max-width: 767px){ */
 #mt-rainier {
-  width: 100rem;
-  opacity: 90%;
   background-color: aquamarine;
-  background-size: cover;}
+  background-size: cover;
+  height: auto;
+  opacity: 90%;
+  width: auto;
+  
 }
 footer {
-  writing-mode: sideways-lr;
+  background-color: blue;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  margin: 0em;
+  opacity: 45%;
+  padding-left: 36em;
+  padding-right: 0;
+  writing-mode: vertical-lr;
 }
