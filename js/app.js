@@ -9,65 +9,65 @@ console.log( userName );
 alert('Hello,' + ' ' + userName );
 
 // First Question
-var mountainsOrBeach = prompt(userName + ', ' + 'do you like the mountains?');
+var mountainsOrBeach = prompt(userName + ', ' + 'have I ever lived in Atlanta?');
 //  console.log(mountainsOrBeach);
-if(mountainsOrBeach.toLowerCase() === 'y'){
-  alert( userName + ', correct');
+if(mountainsOrBeach.toLowerCase() === 'yes' || mountainsOrBeach.toLowerCase === 'y'){
+  alert( userName + ', correct.  I moved to Atlanta when I was young, and went to college there');
   score++;
-} else if (mountainsOrBeach.toLowerCase() === 'n') {
-  alert( userName + ', incorrect.');
+} else if (mountainsOrBeach.toLowerCase() === 'no'|| mountainsOrBeach.toLowerCase === 'n') {
+  alert( userName + ', Not quite. I moved to Atlanta when I was young, and went to college there');
 } else {
-    prompt(userName + ', ' + 'please answer either y or n')
+    prompt(userName + ', ' + 'please answer either yes or no')
 }
 
 
 // Second Question
-var cascades = prompt ('Do you like hiking in the Cascades?');
+var cascades = prompt ('Do I like hiking in the Olympics?');
 // console.log(cascades);
-if(cascades.toLowerCase() === 'y'){
-  alert(userName + ', correct');
+if(cascades.toLowerCase() === 'yes' || cascades.toLowerCase === 'y'){
+  alert(userName + ', Yes, I love hiking in the Olympics.');
   score++;
-} else if (cascades.toLowerCase() === 'n'){
-  alert (userName + ', incorrect.')
+} else if (cascades.toLowerCase() === 'no' || cascades.toLowerCase === 'n'){
+  alert (userName + ', Sorry, I do love hiking in the Olympics.')
 } else {
     prompt(userName + ', ' + 'please answer either y or n')
 }
 
 
 // Third Question
-var camping = prompt('When you hike, do you hike than four miles?');
+var camping = prompt('Have I ever done a bike tour?');
 // console.log(camping);
-  if(camping.toLowerCase() === 'y'){
-  alert(userName + ' ' + 'you may be able to hike across Washington');
+  if(camping.toLowerCase() === 'yes' || camping.toLowerCase() === 'y'){
+  alert(userName + ' ' + 'right!  I have done many, and my favorite was a bike tour across Michigan.');
   score++;
-} else if (camping.toLowerCase() === 'n'){
-  alert(userName + ' ' + 'I don\'t blame you, I worry about getting lost');
+} else if (camping.toLowerCase() === 'no' || camping.toLowerCase() === 'n'){
+  alert(userName + ' ' + 'Ah, sorry.  I have.  It is so much fun.');
  } else {
      prompt (userName + ', ' + 'Please answer either y or n');
  }
 
 
 // Fourth Question
-var campFires = prompt('Do you like campfires?');
+var campFires = prompt('Have I ever been to New Zealand?');
 // console.log(campFires);
-  if(campFires.toLowerCase() === 'y'){
-  alert(userName + ' ' + 'Nice, smores are great.');
+  if(campFires.toLowerCase() === 'yes' || campFires.toLowerCase() === 'y'){
+  alert(userName + ' ' + 'yes, it is by far one my the best places I have traveled');
   score++;
-  } else if (campFires.toLowerCase() === 'n'==='no'){
-  alert(userName + ', incorrect.');
+  } else if (campFires.toLowerCase() === 'n' || campFires.toLowerCase() ==='no'){
+  alert(userName + ', sorry, I have been there before.');
   } else {
-    prompt (userName + ', ' + 'Please answer either y or n );
+    prompt (userName + ', ' + 'Please answer either y or n ');
   }
 
 
 // Fifth Question
-var hammockCamp = prompt('Do you like sleeping in a hammock?');
+var shy = prompt('Am I a shy person?');
 // console.log(hammockCamp);
-  if(hammockCamp.toLowerCase() === 'y'){
-  alert(userName + ' ' + 'correct');
+  if(shy.toLowerCase() === 'yes' || shy.toLowerCase() === 'y'){
+  alert(userName + ' ' + 'yes, public speaking is one of the scariest things I have ever done.  I took a course in college, but that did not help very much.');
   score++;
-} else if (hammockCamp.toLowerCase() === 'n'){
-  alert(userName + ', incorrect.');
+} else if (shy.toLowerCase() === 'no' || shy.toLowerCase() === 'n'){
+  alert(userName + ', sorry.  Public speaking scares me.');
 } else {
     prompt (userName + ', ' + 'Please answer either y or n' );
 }
