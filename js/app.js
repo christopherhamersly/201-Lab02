@@ -110,22 +110,27 @@
 //   }
 // }
 
+
+
 var correctCamp = 'olympics';
-var bestCamps = ['cascades' ,'olympics' , 'rialto Beach' , 'hoh rainforest' , 'vantage' , 'mt Rainier' , 'anywhere']
+var bestCamps = ['cascades' ,'olympics' , 'rialto Beach' , 'hoh rainforest' , 'vantage' , 'mt Rainier' , 'anywhere'];
 function arrayGuess() {
 
-  for(var counter = 0; counter < 6; counter++);{
+  for(var counter = 0; counter < 6; counter++){
     var campingGuess = prompt('Where is the best place to camp? ' + bestCamps + '?');
+    if (counter >= 5){
+      alert('No sorry, not the answer I was looking for.');
+      break;
+    }
     if(campingGuess.toLowerCase() === correctCamp){
       alert('Yup, nailed it.');
+      break;
     } else if (campingGuess.toLowerCase() !== correctCamp){
       alert('No, sorry, not quite right');
     }
-  } if (counter >6) {
-    alert('No, sorry, I was looking for the Olympics');}
-}
-arrayGuess();
-    
+  }
+} 
+
 
 
 // alert('Thank you for your time' + ' ' + userName + 'your score is' + score + 'out of 7');
@@ -140,5 +145,3 @@ arrayGuess();
 // shy();
 // numberGuess();
 arrayGuess();
-
-
