@@ -11,6 +11,9 @@ header {
   text-align: center;
   opacity: 75%;
   writing-mode: vertical-lr;
+  position: relative;
+  top: .2em;
+  
 }
 p {
   width:37.6em;
@@ -20,17 +23,18 @@ p {
 #education {
   background-color: rgb(104, 101, 101);
   color: rgb(217, 223, 217);
-  font-size: 14pt;
-  font-family: sans-serif;
-  margin-left: 15.5em;
-  opacity: 85%;
-  padding-top: 32pt;
-  padding-bottom: 40pt;
-  padding-right: 10em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+  margin-left: 10em;
+  opacity: 75%;
+  padding-bottom: 1.3em;
+  padding-top: 2em;
+  padding-right: 2em;
   text-align: right;
   width: 40em;
   position: relative;
   top: 1em;
+  z-index: 1;
 
 }
 #p1 {
@@ -47,24 +51,25 @@ p {
 #work-history {
   background-color: rgb(92, 104, 104);
   color: rgb(218, 214, 218);
-  font-size: 14pt;
   font-family: Arial, Helvetica, sans-serif;
-  margin-left: 15.5em;
-  opacity: 45%;
-  padding-top: 24pt;
-  padding-right: 10em;
-  padding-bottom: 2.3em;
+  font-size: 20pt;
+  margin-left: 10em;
+  opacity: 75%;
+  padding-bottom: 1.3em;
+  padding-top: 2em;
+  padding-right: 2em;
   text-align: right;
   width: 40em;
   position: relative;
   top: 1em;
+  z-index: 1;
 }
 #p2 {
-  background-color: rgb(1, 114, 114);
+  background-color: rgb(163, 163, 163);
   color: rgb(227, 230, 81);
   font-size: 14pt;
   font-family: Arial, Helvetica, sans-serif;
-  opacity: 45%;
+  opacity: 85%;
   padding-top: 24pt;
   padding-bottom: 2.3em;
   text-align: center;
@@ -73,17 +78,17 @@ p {
   background-color: rgb(62, 68, 68) ;
   color:rgb(255, 255, 255);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14pt;
-  margin-left: 15.5em;
-  opacity: 65%;
-  padding-bottom: 2em;
-  padding-top: 2.5em;
-  padding-right: 10em;
-  text-align: center;
+  font-size: 20pt;
+  margin-left: 10em;
+  opacity: 75%;
+  padding-bottom: 1.3em;
+  padding-top: 2em;
+  padding-right: 2em;
   text-align: right;
   width: 40em;
   position: relative;
   top: 1em;
+  z-index: 1;
 
 }
 
@@ -92,7 +97,7 @@ p {
   color:rgb(228, 224, 224);
   font-size: 14pt;
   font-family: Arial, Helvetica, sans-serif;
-  opacity: 45%;
+  opacity: 65%;
   padding-top: 2.5em;
   padding-bottom: 2em;
   text-align: center;
@@ -102,15 +107,18 @@ p {
 ol {
   background-color: rgb(104, 101, 101);
   color: rgb(217, 223, 217);
-  font-size: 14pt;
-  font-family: sans-serif;
-  margin-left: 15.5em;
-  opacity: 85%;
-  padding-top: 32pt;
-  padding-bottom: 40pt;
-  padding-right: 10em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16pt;
+  margin-left: 10em;
+  opacity: 75%;
+  padding-bottom: 1.3em;
+  padding-top: 2em;
+  padding-right: 2em;
   text-align: right;
   width: 40em;
+  position: relative;
+  top: 1em;
+  z-index: 1;
 }
 /* @media only screen and (max-width: 767px){ */
 #mt-rainier {
@@ -119,13 +127,13 @@ ol {
   height: auto;
   opacity: 90%;
   width: auto;
-  position: absolute;
+  position: ;
 
   
 }
 footer {
   background-color: blue;
-  color: aliceblue;
+  color: rgb(238, 243, 248);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2em;
   margin: 0em;
@@ -134,4 +142,10 @@ footer {
   padding-right: 0;
   padding-top: 4em;
   padding-bottom: 4em;
+}
+
+#music {
+  padding: .5em;
+  padding-right: 35em;
+  font-size: 1.2em;
 }
