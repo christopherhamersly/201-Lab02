@@ -4,20 +4,19 @@ header {
   color: rgb(218, 164, 164);
   font-size: 7.65em;
   font-family: Arial, Helvetica, sans-serif;
+  opacity: 45%;
   padding-top: .3em;
+  padding-right: 1.93em;
   padding-bottom: .3em;
   padding-left: 2.8em;
-  padding-right: 1.93em;
-  text-align: center;
-  opacity: 45%;
-  writing-mode: vertical-lr;
   position: relative;
+  text-align: center;
   top: .2em;
-  
+  writing-mode: vertical-lr;
 }
+
 p {
   width:37.6em;
-
 }
 
 #education {
@@ -27,18 +26,18 @@ p {
   font-size: 20pt;
   margin-left: 10em;
   opacity: 65%;
-  padding-bottom: 1.3em;
   padding-top: 2em;
+  padding-bottom: 1.3em;
   padding-right: 2em;
   text-align: right;
-  width: 40em;
   position: relative;
   top: 1em;
+  width: 40em;
   z-index: 1;
-
 }
+
 #p1 {
-  background-color: rgb(105, 106, 179);
+ background-color: rgb(105, 106, 179);
  color:rgb(227, 231, 227);
  font-size: 14pt;
  font-family: sans-serif;
@@ -55,15 +54,16 @@ p {
   font-size: 20pt;
   margin-left: 10em;
   opacity: 55%;
-  padding-bottom: 1.3em;
   padding-top: 2em;
   padding-right: 2em;
+  padding-bottom: 1.3em;
+  position: relative;
   text-align: right;
   width: 40em;
-  position: relative;
   top: 1em;
   z-index: 1;
 }
+
 #p2 {
   background-color: rgb(105, 106, 179);
   color: rgb(227, 230, 81);
@@ -74,6 +74,7 @@ p {
   padding-bottom: 2.3em;
   text-align: center;
 }
+
 #goals {
   background-color: rgb(62, 68, 68) ;
   color:rgb(255, 255, 255);
@@ -81,15 +82,14 @@ p {
   font-size: 20pt;
   margin-left: 10em;
   opacity: 55%;
-  padding-bottom: 1.3em;
   padding-top: 2em;
+  padding-bottom: 1.3em;
   padding-right: 2em;
-  text-align: right;
-  width: 40em;
   position: relative;
+  text-align: right;
   top: 1em;
+  width: 40em;
   z-index: 1;
-
 }
 
 #p3 {
@@ -101,9 +101,8 @@ p {
   padding-top: 2.5em;
   padding-bottom: 2em;
   text-align: center;
-  
- 
 }
+
 ol {
   background-color: rgb(104, 101, 101);
   color: rgb(217, 223, 217);
@@ -111,24 +110,24 @@ ol {
   font-size: 16pt;
   margin-left: 10em;
   opacity: 65%;
-  padding-bottom: 1.3em;
+  position: relative;
   padding-top: 2em;
   padding-right: 2em;
+  padding-bottom: 1.3em;
   text-align: right;
-  width: 40em;
-  position: relative;
   top: 1em;
+  width: 40em;
   z-index: 1;
 }
-/* @media only screen and (max-width: 767px){ */
+
 #mt-rainier {
   background-color: aquamarine;
   background-size: cover;
   height: auto;
   opacity: 100%;
   width: auto;
-  
 }
+
 footer {
   background-color: blue;
   color: rgb(238, 243, 248);
@@ -136,14 +135,14 @@ footer {
   font-size: 14pt;
   margin: 0em;
   opacity: 45%;
-  padding-left: 5em;
-  padding-right: 0;
   padding-top: 4em;
+  padding-left: 5em;
   padding-bottom: 4em;
+  padding-right: 0;
 }
 
 #music {
+  font-size: 1.2em;
   padding: .5em;
   padding-right: 35em;
-  font-size: 1.2em;
 }
