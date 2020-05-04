@@ -1,19 +1,20 @@
 'use strict';
 
-var score=0;
+var score = 0;
+
+alert ('Hello, welcome to my site.  You will be playing a game to get to know me a bit better.  Have fun. ');
 
 var userName = prompt('What is your name?');
-console.log(userName);
 alert('Hello, ' + userName );
 
 var correctCamp = 'olympics';
 var bestCamps = ['cascades' ,'olympics' , 'rialto Beach' , 'hoh rainforest' , 'vantage' , 'mt Rainier' , 'anywhere'];
 
+
 function lived() {
   var mountainsOrBeach = prompt('Have I ever lived in Atlanta?');
-  console.log(mountainsOrBeach);
   if(mountainsOrBeach.toLowerCase() === 'yes' || mountainsOrBeach.toLowerCase === 'y'){
-    alert('Correct. ' + userName + 'I moved to Atlanta when I was young, and went to college there');
+    alert('Correct. ' + userName + ' I moved to Atlanta when I was young, and went to college there ');
     score++;
   } else if (mountainsOrBeach.toLowerCase() === 'no'|| mountainsOrBeach.toLowerCase === 'n') {
     alert('Not quite. I moved to Atlanta when I was young, and went to college there');
@@ -24,9 +25,8 @@ function lived() {
 
 function hiking() {
   var cascades = prompt ('Do I like hiking in the Olympics?');
-  console.log(cascades);
   if(cascades.toLowerCase() === 'yes' || cascades.toLowerCase === 'y'){
-    alert('Yes, I love hiking in the Olympics.');
+    alert(' Yes, I love hiking in the Olympics.');
     score++;
   } else if (cascades.toLowerCase() === 'no' || cascades.toLowerCase === 'n'){
     alert ('Sorry, I do love hiking in the Olympics.');
@@ -99,6 +99,7 @@ function arrayGuess() {
     }
     if(campingGuess.toLowerCase() === correctCamp){
       alert('Yup, nailed it.');
+      score++;
       break;
     } else if (campingGuess.toLowerCase() !== correctCamp){
       alert('No, sorry, not quite right');
@@ -106,7 +107,9 @@ function arrayGuess() {
   }
 }
 
-alert('Thank you for your time' + ' ' + userName + 'your score is' + score + 'out of 7');
+function ending() {
+  alert(' Thank you for your time ' + userName + ' your score is ' + score + ' out of 7. ');
+}
 
 lived();
 hiking();
@@ -115,3 +118,4 @@ campFire();
 shy();
 numberGuess();
 arrayGuess();
+ending();
